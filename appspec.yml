@@ -4,5 +4,5 @@ files:
   - source: /
     destination: /var/www/html/
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/install_dependencies.sh
