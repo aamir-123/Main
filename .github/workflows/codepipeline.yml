@@ -1,7 +1,7 @@
 name: Friends-And-Family-Codepipeine
 on: [push]
 jobs: build
-  myjob:
+  
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
