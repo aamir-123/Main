@@ -1,9 +1,0 @@
-name: Friends-And-Family-Codepipeine
-on: [push]
-jobs: build
-  my jobs: build
-    runs-on: linux-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, World!!
