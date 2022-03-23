@@ -4,5 +4,6 @@ files:
   - source: /
     destination: /var/www/html/test
 hooks:
+ApplicationStart:
  AfterInstall:
   - location: scripts/execute_dependencies.sh
