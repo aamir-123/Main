@@ -6,5 +6,10 @@ files:
 hooks:
  AfterInstall:
     - location: scripts/install_dependencies.sh
-      timeout: 300
-      runas: root
+permissions:
+  - object: /var/www/html/test
+    mode: 2775
+    pattern: "**"
+    owner: linux
+    group: linux
+hooks:
