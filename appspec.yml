@@ -5,4 +5,4 @@ files:
     destination: /var/www/html/test
 hooks:
  AfterInstall:
-  - location: scripts/install_dependencies.sh
+  - location: scripts/execute_dependencies.sh
