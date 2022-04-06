@@ -4,5 +4,6 @@ files:
   - source: /
     destination: /opt/bitnami/projects/macropick
 hooks:
+ApplicationStart:
   AfterInstall:
     - location: scripts/install_dependencies.sh
