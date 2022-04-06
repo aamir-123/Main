@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/bitnami/projects/macropick
+    destination: /var/www/html/macropick
 hooks:
 ApplicationStart:
   AfterInstall:
