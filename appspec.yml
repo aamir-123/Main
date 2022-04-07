@@ -4,5 +4,6 @@ files:
   - source: /
     destination: /var/www/html/macropick
 hooks:
+  ApplicationStart:
   AfterInstall:
     - location: scripts/set-permissions.sh
