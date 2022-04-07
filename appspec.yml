@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/macropick
-    file_exists_behavior: overwrite
+    file_exists_behavior: Overwrite
 hooks:
 ApplicationStart:
   AfterInstall:
