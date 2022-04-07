@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/macropick/
+    destination: /var/www/html/macropick
 hooks:
 ApplicationStart:
   AfterInstall:
