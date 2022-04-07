@@ -6,4 +6,4 @@ files:
 hooks:
 ApplicationStart:
   AfterInstall:
-    - location: scripts/install_dependencies.sh
+    - location: scripts/set-permissions.sh
