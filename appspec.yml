@@ -4,6 +4,7 @@ files:
   - source: /
     destination: /var/www/html/macropick
     overwrite: true
+    file_exists_behavior: OVERWRITE
 hooks:
 ApplicationStart:
   AfterInstall:
