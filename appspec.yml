@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/cicd.xelentsoft.com
+    destination: /var/www/html/macropick
 hooks:
   AfterInstall:
     - location: scripts/set-permissions.sh
